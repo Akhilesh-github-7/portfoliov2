@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- CSS Linking -->
+    <link rel="stylesheet" href="./styles.css">
+    <!-- fontawesome linking -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+CU:wght@100..400&family=Sevillana&display=swap"
+        rel="stylesheet">
+    <!-- animation style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- main division -->
+    <div id="container">
+        <!-- navbar -->
+        <nav>
+            <!-- logo -->
+            <img class="logo" src="./images/logo.png" alt="no image">
+            <!-- links -->
+            <ul>
+                <li class="list-items"><a class="list" href="#home">Home</a></li>
+                <li class="list-items"><a class="list" href="#about">About</a></li>
+                <li class="list-items"><a class="list" href="#skill">Skills</a></li>
+                <li class="list-items"><a class="list" href="#contacts">Contact</a></li>
+
+            </ul>
+        </nav>
+        <!-- Home -->
+        <section id="home">
+            <div class="home-Content">
+                <h1 class="animate__animated animate__wobble" id="username">I'm DANI <span id="Lname">DANIELS</span>
+                </h1>
+                <p id="user-details">This is my official portfolio website to describe all <br>
+                    details and work experience in my web development</p>
+                <a id="download" href="./images/Biolx.pdf" download>DOWNLOAD CV</a>
+            </div>
+            <!-- Home image -->
+            <div class="home-img">
+                <!-- shape -->
+                <img id="shape" class="group1" src="./images/img2.png" alt="">
+                <!-- image -->
+                <img id="girl" class="group1" src="./images/img1.png" alt="">
+            </div>
+        </section>
+        <!-- about -->
+        <section id="about">
+            <div class="sectionhead">
+                <h2 id="mainhead">About Me</h2>
+                <span id="subhead">Introduction</span>
+            </div>
+            <div class="aboutbody">
+                <div data-aos="fade-right" class="aboutimage">
+                    <img class="img1" src="./images/about.png" alt="no image">
+                </div>
+                <div class="aboutcontent">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laborum repellendus
+                        obcaecati, tempora non omnis iure repudiandae dolore atque! Possimus veniam culpa ut nihil
+                        nostrum aperiam. Accusamus perspiciatis aliquid inventore!
+                        Neque totam ad optio, tenetur mollitia, perferendis temporibus assumenda fugiat magni iste,
+                        molestias dolores!</p>
+                    <div class="informations">
+                        <div class="infobox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Dani Daniels</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>8930258127</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>danidaniels123@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- skills -->
+        <section id="skill">
+            <div class="sectionhead">
+                <h2 id="mainhead">Skills</h2>
+                <span id="subhead">My skills</span>
+            </div>
+            <div class="skillcontent">
+                <!-- progress bar -->
+                <div class="progressbar">
+                    <div class="bars">
+                        <h3 class="mainhead">HTML</h3>
+                        <span class="barpercentage">89%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="basebar htmlbar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="mainhead">CSS</h3>
+                        <span class="barpercentage">82%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="basebar cssbar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="mainhead">JS</h3>
+                        <span class="barpercentage">71%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="basebar jsbar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="mainhead">React</h3>
+                        <span class="barpercentage">75%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="basebar reactbar"></div>
+                    </div>
+                </div>
+                <div data-aos="fade-left" class="skillsimage">
+                    <img width="100%" class="myskills" src="./images/skills.jpeg" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- contacts -->
+        <section id="contacts">
+            <div class="sectionhead">
+                <h2 id="mainhead">Contacts</h2>
+                <span id="subhead">My contacts</span>
+            </div>
+            <div class="iconcollection">
+                <!-- linkedin -->
+                <div class="icon">
+                    <a href="https://www.instagram.com/" target="_blank"><i
+                            class="fa-brands fa-linkedin brands"></i></a>
+                </div>
+                <!-- github -->
+                <div class="icon">
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-github brands"></i></a>
+                </div>
+                <!-- twitter -->
+                <div class="icon">
+                    <a href="" target="_blank"><i class="fa-brands fa-square-twitter brands"></i></a>
+                </div>
+                <!-- facebook -->
+                <div class="icon">
+                    <a href="https://www.instagram.com/" target="_blank"><i
+                            class="fa-brands fa-facebook brands"></i></a>
+                </div>
+                <!-- instagram -->
+                <div class="icon">
+                    <a href="https://www.instagram.com/" target="_blank"><i
+                            class="fa-brands fa-instagram brands"></i></a>
+                </div>
+                <!-- email -->
+                <div class="icon">
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa-solid fa-envelope brands"></i></a>
+                </div>
+            </div>
+
+        </section>
+        <!-- footer -->
+        <footer>
+            <p id="copyright">&copy; My portfolio website -June 2024, All Rightsreserved to &reg; Dani Daniels</p>
+            <div class="icon uparrow">
+                <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+
+</html>
